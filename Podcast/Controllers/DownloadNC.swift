@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DownloadNC.swift
 //  Podcast
 //
 //  Created by Abdulmalik Muhammad on 21/05/2020.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class DownlaodNC: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    setupViewController()
   }
-
-
+  
+  fileprivate func setupViewController() {
+      view.backgroundColor = .systemBackground
+  }
 }
-
