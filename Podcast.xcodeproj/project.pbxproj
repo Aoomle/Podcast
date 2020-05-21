@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		478EBDB42476CD0C00B85965 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EBDB32476CD0C00B85965 /* Podcast.swift */; };
 		47BAF6042476BFAE00528E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAF6032476BFAE00528E48 /* AppDelegate.swift */; };
 		47BAF6062476BFAE00528E48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAF6052476BFAE00528E48 /* SceneDelegate.swift */; };
 		47BAF60D2476BFB200528E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BAF60C2476BFB200528E48 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		478EBDB32476CD0C00B85965 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		47BAF6002476BFAE00528E48 /* Podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BAF6032476BFAE00528E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47BAF6052476BFAE00528E48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		478EBDB52476CD3800B85965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				478EBDB32476CD0C00B85965 /* Podcast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		47BAF5F72476BFAE00528E48 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		47BAF6022476BFAE00528E48 /* Podcast */ = {
 			isa = PBXGroup;
 			children = (
+				478EBDB52476CD3800B85965 /* Models */,
 				47BAF61D2476C1B100528E48 /* Controllers */,
 				47BAF6032476BFAE00528E48 /* AppDelegate.swift */,
 				47BAF6052476BFAE00528E48 /* SceneDelegate.swift */,
@@ -150,6 +161,7 @@
 			files = (
 				47BAF61C2476C12B00528E48 /* DownloadNC.swift in Sources */,
 				47BAF61A2476C12200528E48 /* FavoritesNC.swift in Sources */,
+				478EBDB42476CD0C00B85965 /* Podcast.swift in Sources */,
 				47BAF6182476C11800528E48 /* SearchNC.swift in Sources */,
 				47BAF6042476BFAE00528E48 /* AppDelegate.swift in Sources */,
 				47BAF6062476BFAE00528E48 /* SceneDelegate.swift in Sources */,

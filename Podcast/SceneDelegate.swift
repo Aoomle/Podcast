@@ -39,6 +39,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                                       image: UIImage) -> UINavigationController {
     let navController = UINavigationController(rootViewController: viewController)
     viewController.navigationItem.title = title
+    navController.tabBarItem.title = title
     navController.tabBarItem.image = image
     navController.navigationBar.prefersLargeTitles = true
     return navController
